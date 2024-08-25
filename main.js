@@ -66,7 +66,7 @@ function trackMousePosition() {
  */
 
 function createTestList() {
-    document.body.innerHTML = `
+    document.body.innerHTML += `
      <ul id="testList">
      <li>Item 1</li>       
      <li>Item 2</li>
